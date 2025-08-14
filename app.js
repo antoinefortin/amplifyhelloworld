@@ -1,5 +1,10 @@
 // Will be configured after setting up Amplify
-let amplifyConfig = {};
+let amplifyConfig = {
+    aws_appsync_graphqlEndpoint: 'https://zw3m6peeurb7ppyyqrhj72qu3u.appsync-api.us-east-1.amazonaws.com/graphql',
+    aws_appsync_region: 'us-east-1', // Your region
+    aws_appsync_authenticationType: 'API_KEY',
+    aws_appsync_apiKey: 'da2-vl6v3i3w4jdonpht6ytu5dfghy',
+};
 
 // Initialize Amplify (will add config later)
 function initializeAmplify() {
